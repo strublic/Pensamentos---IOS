@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		AC063F432059DABF00037AF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC063F422059DABF00037AF2 /* AppDelegate.swift */; };
-		AC063F452059DABF00037AF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC063F442059DABF00037AF2 /* ViewController.swift */; };
+		AC063F452059DABF00037AF2 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC063F442059DABF00037AF2 /* QuotesViewController.swift */; };
 		AC063F482059DABF00037AF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC063F462059DABF00037AF2 /* Main.storyboard */; };
 		AC063F4A2059DABF00037AF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC063F492059DABF00037AF2 /* Assets.xcassets */; };
 		AC063F4D2059DABF00037AF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC063F4B2059DABF00037AF2 /* LaunchScreen.storyboard */; };
+		AC063F552059E24F00037AF2 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC063F542059E24F00037AF2 /* ConfigViewController.swift */; };
+		AC063F572059E25F00037AF2 /* SaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC063F562059E25F00037AF2 /* SaveViewController.swift */; };
+		AC063F592059F56800037AF2 /* QuotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC063F582059F56800037AF2 /* QuotesManager.swift */; };
+		AC063F5B2059F5DB00037AF2 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC063F5A2059F5DB00037AF2 /* Quote.swift */; };
+		AC063F5D2059F6EF00037AF2 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = AC063F5C2059F6EF00037AF2 /* quotes.json */; };
+		AC063F5F2059FCFA00037AF2 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC063F5E2059FCFA00037AF2 /* Configuration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AC063F3F2059DABF00037AF2 /* Pensamentos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pensamentos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC063F422059DABF00037AF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC063F442059DABF00037AF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC063F442059DABF00037AF2 /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
 		AC063F472059DABF00037AF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC063F492059DABF00037AF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC063F4C2059DABF00037AF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC063F4E2059DABF00037AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC063F542059E24F00037AF2 /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		AC063F562059E25F00037AF2 /* SaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveViewController.swift; sourceTree = "<group>"; };
+		AC063F582059F56800037AF2 /* QuotesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesManager.swift; sourceTree = "<group>"; };
+		AC063F5A2059F5DB00037AF2 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		AC063F5C2059F6EF00037AF2 /* quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
+		AC063F5E2059FCFA00037AF2 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +67,17 @@
 			isa = PBXGroup;
 			children = (
 				AC063F422059DABF00037AF2 /* AppDelegate.swift */,
-				AC063F442059DABF00037AF2 /* ViewController.swift */,
+				AC063F5C2059F6EF00037AF2 /* quotes.json */,
+				AC063F442059DABF00037AF2 /* QuotesViewController.swift */,
 				AC063F462059DABF00037AF2 /* Main.storyboard */,
 				AC063F492059DABF00037AF2 /* Assets.xcassets */,
 				AC063F4B2059DABF00037AF2 /* LaunchScreen.storyboard */,
 				AC063F4E2059DABF00037AF2 /* Info.plist */,
+				AC063F542059E24F00037AF2 /* ConfigViewController.swift */,
+				AC063F562059E25F00037AF2 /* SaveViewController.swift */,
+				AC063F582059F56800037AF2 /* QuotesManager.swift */,
+				AC063F5A2059F5DB00037AF2 /* Quote.swift */,
+				AC063F5E2059FCFA00037AF2 /* Configuration.swift */,
 			);
 			path = Pensamentos;
 			sourceTree = "<group>";
@@ -123,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC063F5D2059F6EF00037AF2 /* quotes.json in Resources */,
 				AC063F4D2059DABF00037AF2 /* LaunchScreen.storyboard in Resources */,
 				AC063F4A2059DABF00037AF2 /* Assets.xcassets in Resources */,
 				AC063F482059DABF00037AF2 /* Main.storyboard in Resources */,
@@ -136,8 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC063F452059DABF00037AF2 /* ViewController.swift in Sources */,
+				AC063F592059F56800037AF2 /* QuotesManager.swift in Sources */,
+				AC063F452059DABF00037AF2 /* QuotesViewController.swift in Sources */,
+				AC063F5F2059FCFA00037AF2 /* Configuration.swift in Sources */,
+				AC063F572059E25F00037AF2 /* SaveViewController.swift in Sources */,
 				AC063F432059DABF00037AF2 /* AppDelegate.swift in Sources */,
+				AC063F5B2059F5DB00037AF2 /* Quote.swift in Sources */,
+				AC063F552059E24F00037AF2 /* ConfigViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
